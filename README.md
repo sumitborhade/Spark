@@ -10,7 +10,7 @@
 6. Cluster manager : Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local
 7. Distributed storage : HDFS, Amazon S3, NoSQL, RDBMS
 
-## ![Spark Ecosystem](Spark Architecture.PNG)
+![Spark Ecosystem](Spark Architecture.PNG)
 
 ## Advantages
 1. Abstraction : Abrastracts distributed architecture and makes feel like working on single machine and executing SQL queries so underlying complexities are hide.
