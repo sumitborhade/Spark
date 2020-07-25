@@ -11,6 +11,7 @@
 <li>Cluster manager : Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local</li> 
 <li>Distributed storage : HDFS, Amazon S3, NoSQL, RDBMS</li> 
 </ol>
+
 ![Spark Ecosystem](https://github.com/sumitborhade/Spark/raw/master/Spark_EcoSystem.png)
 
 ## Advantages
