@@ -24,8 +24,8 @@
 
 ## Spark Execution Methods
 <ol>
-  <li>Interactive Clients: Using Spark Shell & Notebook</li>
-  <li>Submit-Job: Program is submitted using submit job</li>
+  <li>Interactive Clients: Using Spark Shell & Notebook. Used for exploration & development purpose</li>
+  <li>Spark-Submit: Program is submitted using submit job. Used in Production</li>
 <ol>
   
   Spark supports 
