@@ -6,6 +6,7 @@
 3. Spark SQL & Dataframes: Uses SQL queries. DF supports functional programming to solve data crunching problem
 4. MLib: Used for Machine Learning
 5. GraphX: Used for graphs
+6. Streaming APIs: Streaming: Consume and Process a continuous stream of data
 6. Cluster manager : Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local
 7. Distributed storage : HDFS, Amazon S3, NoSQL, RDBMS
 
