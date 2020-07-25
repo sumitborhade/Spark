@@ -84,7 +84,7 @@ Read this file one by one for each key value and add it to .config
 
 
 ## Configuring the Spark session 
-** Precedence order: **
+**Precedence order:**
 1. Configuration in the program (highest precendence)
 2. Command line arg 
 3. Default config file
