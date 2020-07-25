@@ -24,7 +24,10 @@
 
 ## Spark Execution Methods
 <ol>
-  <li>Local</li>
-  <li>Interactive</li>
-  <li>Cloud</li>
+  <li>Interactive Clients: Using Spark Shell & Notebook</li>
+  <li>Submit-Job: Program is submitted using submit job</li>
 <ol>
+  
+  Spark supports 
+  1. Batch processing (Scheduled job)
+  2. Stream processing (Kafka integration)
