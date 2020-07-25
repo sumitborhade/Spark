@@ -57,4 +57,6 @@ val spark = SparkSession.builder()
             .appName("Hello Spark")
             .master("local[3]")
             .getOrCreate();
+spark.stop();
 ```
+
