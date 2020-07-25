@@ -51,20 +51,20 @@ Driver has Spark Session (DF/DS) or Spark Context (For RDD).
 
 Spark session is singleton because app has only one driver. 
 
-Creating Spark Session : Option 1
+**Creating Spark Session : Option 1**
 ```
 val spark = SparkSession.builder()
-            .appName("Hello Spark")
+            .appName("My Spark App")
             .master("local[3]")
             .getOrCreate();
 spark.stop();
 ```
 
 
-Creating Spark Session : Option 2
+**Creating Spark Session : Option 2**
 ```
 val sparkConf = new SparkConf();
-sparkConf.set("spark.app.name", "Hello Spark");
+sparkConf.set("spark.app.name", "My Spark App");
 sparkConf.set("spark.master", "local[3]");
 
 val spark = SparkSession.builder()
@@ -73,3 +73,7 @@ val spark = SparkSession.builder()
 spark.stop();
 
 ```
+
+**Creating Spark Session : Option 3**
+Create the properties file.
+Pro
