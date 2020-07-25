@@ -89,3 +89,10 @@ Read this file one by one for each key value and add it to .config
 2. Command line arg 
 3. Default config file
 4. Environment variables (lowest precedence)
+
+## Dataframe
+DF has 
+<ol>
+<li>column names </li> 
+<li>associated data types</li>
+</ol>
