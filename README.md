@@ -43,3 +43,5 @@
 It works on master slave principles.
 Every application has one master and 0 or more executors. 
 Work is distributed between the executors, who process and returns the results to master.
+
+![Diagram](https://raw.githubusercontent.com/sumitborhade/Spark/master/Spark_Processing_Model.png)
