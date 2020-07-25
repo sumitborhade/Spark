@@ -40,8 +40,8 @@
 5. Standalone
 
 ## Spark Processing Model
-It works on master slave principles.
-Every application has one master and 0 or more executors. 
-Work is distributed between the executors, who process and returns the results to master.
+It works on master slave principles. <br/>
+Every application has one master and 0 or more executors. </br>
+Work is distributed between the executors, who process and returns the results to master. </br>
 
 ![Diagram](https://raw.githubusercontent.com/sumitborhade/Spark/master/Spark_Processing_Model.png)
