@@ -75,5 +75,5 @@ spark.stop();
 ```
 
 **Creating Spark Session : Option 3**
-Create the properties file.
-Pro
+Create the conf/properties file containing all the spark configurations.<br/>
+Read this file one by one for each key value and add it to .config
