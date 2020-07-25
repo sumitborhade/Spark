@@ -25,9 +25,10 @@
 ## Spark Execution Methods
 <ol>
   <li>Interactive Clients: Using Spark Shell & Notebook. Used for exploration & development purpose</li>
-  <li>Spark-Submit: Program is submitted using submit job. Used in Production</li>
+  <li>Spark-Submit (Universely accepted method): Program is submitted using submit job. Used in Production</li>
 <ol>
   
-  Spark supports 
+## Spark supports 
   1. Batch processing (Scheduled job)
   2. Stream processing (Kafka integration)
+
