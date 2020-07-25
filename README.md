@@ -29,6 +29,17 @@
 <ol>
   
 ## Spark supports 
-  1. Batch processing (Scheduled job)
-  2. Stream processing (Kafka integration)
+1. Batch processing (Scheduled job)
+2. Stream processing (Kafka integration)
 
+## Spark Cluster Managers
+1. Local
+2. Yarn
+3. Mesos
+4. Kubernetes
+5. Standalone
+
+## Spark Processing Model
+It works on master slave principles.
+Every application has one master and 0 or more executors. 
+Work is distributed between the executors, who process and returns the results to master.
