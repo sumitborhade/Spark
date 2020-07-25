@@ -1,15 +1,16 @@
 # Spark 
 
 ## Spark Architecutre
-1. Spark Core : Used for monitoring, scheduling and processing the task
-2. Spark API (Polyglots) : Supports Java, Scala, Python and R
-3. Spark SQL & Dataframes: Uses SQL queries. DF supports functional programming to solve data crunching problem
-4. MLib: Used for Machine Learning
-5. GraphX: Used for graphs
-6. Streaming APIs: Streaming: Consume and Process a continuous stream of data
-6. Cluster manager : Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local
-7. Distributed storage : HDFS, Amazon S3, NoSQL, RDBMS
-
+<ol>
+<li>Spark Core : Used for monitoring, scheduling and processing the task</li> 
+<li>Spark API (Polyglots) : Supports Java, Scala, Python and R</li> 
+<li>Spark SQL & Dataframes: Uses SQL queries. DF supports functional programming to solve data crunching problem</li> 
+<li>MLib: Used for Machine Learning</li> 
+<li>GraphX: Used for graphs</li> 
+<li>Streaming APIs: Streaming: Consume and Process a continuous stream of data</li> 
+<li>Cluster manager : Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local</li> 
+<li>Distributed storage : HDFS, Amazon S3, NoSQL, RDBMS</li> 
+</ol>
 ![Spark Ecosystem](Spark%20Architecture.PNG)
 
 ## Advantages
