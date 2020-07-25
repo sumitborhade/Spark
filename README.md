@@ -44,7 +44,7 @@ It works on master slave principles. <br/>
 Every application has one master and 0 or more executors. </br>
 Work is distributed between the executors, who process and returns the results to master. </br>
 
-![Diagram](https://raw.githubusercontent.com/sumitborhade/Spark/master/Spark_Processing_Model.png)
+![Diagram](readme-assets/Spark_Processing_Model.png)
 
 ## Creating Spark Program
 Driver has Spark Session (DF/DS) or Spark Context (For RDD).
