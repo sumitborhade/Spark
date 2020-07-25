@@ -91,8 +91,14 @@ Read this file one by one for each key value and add it to .config
 4. Environment variables (lowest precedence)
 
 ## Dataframe
+DF is immutable data structure. i.e. once created cannot be modified.
 DF has 
 <ol>
 <li>column names </li> 
 <li>associated data types</li>
 </ol>
+
+Spark (with the help of Cluster manager) will assign the closest partitions assigned to DF to avoid the network latency.
+
+## Spark Transformation
+They like SQL like operations.
