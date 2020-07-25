@@ -22,3 +22,9 @@
 5. Powerful caching: It has caching management
 
 
+## Spark Execution Methods
+<ol>
+  <li>Local</li>
+  <li>Interactive</li>
+  <li>Cloud</li>
+<ol>
