@@ -10,10 +10,13 @@
 6. Cluster manager : Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local
 7. Distributed storage : HDFS, Amazon S3, NoSQL, RDBMS
 
+## Spark Ecosystem ()
+
 ## Advantages
 1. Abstraction : Abrastracts distributed architecture and makes feel like working on single machine and executing SQL queries so underlying complexities are hide.
 2. Unified processing: Can use polyglot, provides various liberaries to work for Machine Learning & GraphX
 3. Ease to use: Complexities are hiden by Spark
 4. Fast processing: In memory processing. 10x faster than Hadoop on disc and 100x faster on memory
 5. Powerful caching: It has caching management
+
 
