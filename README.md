@@ -83,7 +83,8 @@ Create the conf/properties file containing all the spark configurations.</br>
 Read this file one by one for each key value and add it to .config
 
 
-## Configuring the Spark session will have precedence in below order
+## Configuring the Spark session 
+** Precedence order: **
 1. Configuration in the program (highest precendence)
 2. Command line arg 
 3. Default config file
