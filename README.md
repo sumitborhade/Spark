@@ -135,3 +135,9 @@ DAG has
 2. <b>Stages</b> are created when job performs a wide dependency transformation. Stage may write a data in write exchange and read from read exchange
 3. <b>Tasks</b> are the unit of work those would be executed by executors
 
+
+## Structured APIs (RDD, DataFrames, DataSet, SQL)
+<b>RDD:<b/> Low level API and present at core. Not recommanded by Spark community as it lags Catalyst optimizer. But used when schema is not assigned
+<b>DataFrames:</b> Associated with Generic type  (ROW)
+<b>DataSet:</b> Lang native APIs for Java & Scala. Not applicable in Python. Tied to a specific schema
+<b>Spark SQL:</b> Recommanded by Spark, as it performs efficient operations. They are like SQL queries and hides the underlying complexities
