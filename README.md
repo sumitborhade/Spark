@@ -177,7 +177,7 @@ Reference: https://www.youtube.com/watch?v=I7RbpsRTcMQ
 <li><b>Level of parallelism:</b> 
 	<ol>
 	<li><b>Repartition:</b> Can be used to increase or decrease # of partitions</li>
-	<li><b>Coalesce:</b> Can be used to decrease # of partitions & helps to minimize # of shuffles</li>
+	<li><b>Coalesce:</b> Can be used to decrease # of partitions and helps to minimize # of shuffles</li>
 	</ol>
 </li>
 <li><b>Effective use of Filters:</b> Filter the data as much as possible before applying the join</li>
