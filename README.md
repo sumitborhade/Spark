@@ -171,7 +171,7 @@ Reference: https://www.youtube.com/watch?v=I7RbpsRTcMQ
 	<li>Dataset which uses Tungsten serializer should be used for type safty</li>
 	</ol>
 </li>
-<li></li>
-<li></li>
+<li><b>Broadcast:</b> Makes small dataset available to all executors instead of sending large dataset over network</li>
+<li><b>Cache over Persist: </b> Use cache for small and frquently used data over persistence</li>
 <li></li>
 </ol>
