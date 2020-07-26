@@ -113,8 +113,10 @@ DAG has
 	<li>select, groupby, where are examples</li>
 	<li>e.g. df.select("col1", "col2")</li>
 	<li>They are again divided in to </li>
-	<ol>
-	<li>Narrow Transformation : Performs an operation of single partition and produces a valid result</li>
-	<li>Wide Transformation: Data requires from other partiotions to get a correct result</li>
-	</ol>
+		<ol>
+			<li>Narrow Transformation : Performs an operation of single partition and produces a valid result</li>
+			<li>Wide Transformation: Data requires from other partiotions to get a correct result. It requires **shuffle/sort exchange** to bring logical data together.</li>
+		</ol>
 	</ul>
+	
+2. Actions:
