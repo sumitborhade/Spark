@@ -101,4 +101,10 @@ DF has
 Spark (with the help of Cluster manager) will assign the closest partitions assigned to DF to avoid the network latency.
 
 ## Spark Transformation
-They like SQL like operations.
+They like SQL like operations and form a DAG (Directed Acyclic Graph).
+
+DAG has 
+1. Transformations : 
+	<ul>
+	<li>e.g. df.select("col1", "col2")</li>
+	</ul>
