@@ -122,3 +122,9 @@ DAG has
 	</ul>
 
 2. Actions:
+	<ol>
+		<li>Read</li>
+		<li>Write</li>
+		<li>Collect</li>
+		<li>Show</li>
+	</ol>
