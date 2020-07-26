@@ -117,6 +117,8 @@ DAG has
 			<li>Narrow Transformation : Performs an operation of single partition and produces a valid result</li>
 			<li>Wide Transformation: Data requires from other partiotions to get a correct result. It requires <b>shuffle/sort exchange</b> to bring logical data together.</li>
 		</ol>
+		
+	<li><b>Lazy evaluations:</b> Transformations are not executed directly. Driver reviews the transformations and optimize them before executing action.</li>
 	</ul>
 
 2. Actions:
