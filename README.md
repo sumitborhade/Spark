@@ -123,6 +123,7 @@ DAG has
 
 ![Narrow Dependency Transformation](readme-assets/Narrow_Dependency.png)
 
+![Wide Dependency Transformation](readme-assets/Wide_Dependency.png)
 
 2. Actions:
 	<ol>
