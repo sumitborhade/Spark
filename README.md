@@ -118,5 +118,6 @@ DAG has
 			<li>Wide Transformation: Data requires from other partiotions to get a correct result. It requires **~~shuffle/sort exchange~~** to bring logical data together.</li>
 		</ol>
 	</ul>
-	
+**~~shuffle/sort exchange~~**
+
 2. Actions:
