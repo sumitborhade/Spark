@@ -155,11 +155,16 @@ Diagram Reference: https://www.udemy.com/course/apache-spark-programming-in-scal
 
 ## Performance Tuning
 <ol>
-<li><b>Serializer:</b> 
+<li>
+<b>Serializer:</b> 
 	<ol>
 	<li>Spark uses "Kryo" serializer for better performance.</li>
 	<li>10x faster than Java serializer.</li>
 	<li>config.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer");</li>
 	</ol>
 </li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 </ol>
