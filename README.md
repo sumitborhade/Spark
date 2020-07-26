@@ -180,5 +180,5 @@ Reference: https://www.youtube.com/watch?v=I7RbpsRTcMQ
 	<li><b>Coalesce:</b> Can be used to decrease # of partitions & helps to minimize # of shuffles</li>
 	</ol>
 </li>
-<li></li>
+<li><b>Effective use of Filters:</b> Filter the data as much as possible before applying the join</li>
 </ol>
