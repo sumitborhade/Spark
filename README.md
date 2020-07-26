@@ -115,7 +115,7 @@ DAG has
 	<li>They are again divided in to </li>
 		<ol>
 			<li>Narrow Transformation : Performs an operation of single partition and produces a valid result</li>
-			<li>Wide Transformation: Data requires from other partiotions to get a correct result. It requires <b>shuffle/sort exchange</b> to bring logical data together.</li>
+			<li>Wide Transformation: Data requires from other partitions to get a correct result. It requires <b>shuffle/sort exchange</b> to bring logical data together.</li>
 		</ol>
 		
 	<li><b>Lazy evaluations:</b> Transformations are not executed directly. Driver reviews the transformations and optimize them before executing action.</li>
@@ -174,6 +174,11 @@ Reference: https://www.youtube.com/watch?v=I7RbpsRTcMQ
 <li><b>Broadcast:</b> Makes small dataset available to all executors instead of sending large dataset over network</li>
 <li><b>Cache over Persist: </b> Use cache for small and frquently used data over persistence</li>
 <li><b>Parquet format:</b> Parquest with snappy compression is used for high performance and native to the spark & carries schema definition.</li>
-<li></li>
+<li><b>Level of parallelism:</b> 
+	<ol>
+	<li><b>Repartition:</b> Can be used to increase or decrease # of partitions</li>
+	<li><b>Coalesce:</b> Can be used to decrease # of partitions & helps to minimize # of shuffles</li>
+	</ol>
+</li>
 <li></li>
 </ol>
