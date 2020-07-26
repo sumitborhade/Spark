@@ -151,3 +151,13 @@ DAG has
 
 Diagram Reference: https://www.udemy.com/course/apache-spark-programming-in-scala/
 ![Structured APIs](readme-assets/Spark_Structured_APIs.png)
+
+
+## Performance Tuning
+<ol>
+<li><b>Serializer:</b> 
+	<ol>
+	<li>Spark uses "Kryo" serializer for better performance.</li>
+	<li>10x faster than Java serializer.</li>
+	</ol>
+</ol>
