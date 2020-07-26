@@ -146,4 +146,4 @@ DAG has
 <b>Spark SQL:</b> Recommanded by Spark, as it performs efficient operations. They are like SQL queries and hides the underlying complexities
 
 Diagram Reference: https://www.udemy.com/course/apache-spark-programming-in-scala/
-![Structured APIs](readme-assets/Structured_APIs.png)
+![Structured APIs](readme-assets/Spark_Structured_APIs.png)
