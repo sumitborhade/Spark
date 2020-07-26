@@ -128,3 +128,9 @@ DAG has
 		<li>Collect : Used for Production code as it is array and provides more control</li>
 		<li>Show: Used for devleopment/debugging purpose to save the time</li>
 	</ol>
+	
+	
+## Spark execution plan (Jobs, Stages & Tasks)
+1. Jobs are created when action is executed
+2. Stages are created when job performs a transformation
+3. 
