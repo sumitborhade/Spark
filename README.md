@@ -121,6 +121,9 @@ DAG has
 	<li><b>Lazy evaluations:</b> Transformations are not executed directly. Driver reviews the transformations and optimize them before executing action.</li>
 	</ul>
 
+![Narrow Dependency Transformation](readme-assets/Narrow_Dependency.png)
+
+
 2. Actions:
 	<ol>
 		<li>Read</li>
