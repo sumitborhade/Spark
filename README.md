@@ -115,6 +115,6 @@ DAG has
 	<li>They are again divided in to </li>
 	<ol>
 	<li>Narrow Transformation : Performs an operation of single partition and produces a valid result</li>
-	<li>Wide Transformation: </li>
+	<li>Wide Transformation: Data requires from other partiotions to get a correct result</li>
 	</ol>
 	</ul>
