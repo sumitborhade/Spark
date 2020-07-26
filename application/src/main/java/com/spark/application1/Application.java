@@ -31,6 +31,7 @@ public class Application {
 				.withColumn("DOB", to_date(col("DOB"),"M/d/y"))
 				.orderBy(col("Full Name").asc(), col("DOB").asc());
 
+//		Printing the schema
 		df1.printSchema();
 		df1.show();
 //		df1.show((int)df.count(), false);
