@@ -173,7 +173,7 @@ Reference: https://www.youtube.com/watch?v=I7RbpsRTcMQ
 </li>
 <li><b>Broadcast:</b> Makes small dataset available to all executors instead of sending large dataset over network</li>
 <li><b>Cache over Persist: </b> Use cache for small and frquently used data over persistence</li>
-<li><b>Parquet format:</b>Parquest with snappy compression is used for high performance and native to the spark & carries schema definition.</li>
+<li><b>Parquet format:</b> Parquest with snappy compression is used for high performance and native to the spark & carries schema definition.</li>
 <li></li>
 <li></li>
 </ol>
