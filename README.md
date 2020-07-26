@@ -130,8 +130,8 @@ DAG has
 	</ol>
 	
 	
-## Spark execution plan (Jobs, Stages & Tasks)
-1. Jobs are created when action is executed
-2. Stages are created when job performs a wide dependency transformation
-3. Tasks are the unit of work those would be executed by executors
+## Spark execution plan
+1. <b>Jobs</b> are created when action is executed
+2. <b>Stages</b> are created when job performs a wide dependency transformation. Stage may write a data in write exchange and read from read exchange
+3. <b>Tasks</b> are the unit of work those would be executed by executors
 
