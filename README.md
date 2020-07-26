@@ -166,9 +166,9 @@ Reference: https://www.youtube.com/watch?v=I7RbpsRTcMQ
 </li>
 <li><b>Use of structured APIs:</b> 
 	<ol>
-	<li>Use of structured APIs (SQL/Dataframes/Dataset) over RDD wherever possible.</li>
+	<li>Use of structured APIs (SQL/Dataframes/Dataset) over RDD wherever possible</li>
 	<li>Dataframe is best suited due catalyst optimizer and low GC overhead</li>
-	<li>Dataset uses Tungsten serializer</li>
+	<li>Dataset which uses Tungsten serializer should be used for type safty</li>
 	</ol>
 </li>
 <li></li>
