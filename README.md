@@ -125,6 +125,6 @@ DAG has
 	<ol>
 		<li>Read</li>
 		<li>Write</li>
-		<li>Collect</li>
-		<li>Show</li>
+		<li>Collect : Used for Production code as it is array and provides more control</li>
+		<li>Show: Used for devleopment/debugging purpose to save the time</li>
 	</ol>
