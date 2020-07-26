@@ -160,9 +160,9 @@ Diagram Reference: https://www.udemy.com/course/apache-spark-programming-in-scal
 	<li>Spark uses "Kryo" serializer for better performance.</li>
 	<li>10x faster than Java serializer.</li>
 	<li>
-	```c
-		config.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer");
-	```
+	    ```c
+		    config.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer");
+	    ```
 	</li>
 	</ol>
 </li>
