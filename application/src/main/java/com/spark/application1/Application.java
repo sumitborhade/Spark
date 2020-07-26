@@ -1,7 +1,6 @@
 package com.spark.application1;
 
-import static org.apache.spark.sql.functions.col;
-import static org.apache.spark.sql.functions.to_date;
+import static org.apache.spark.sql.functions.*;
 
 import java.util.Scanner;
 
@@ -10,9 +9,6 @@ import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
 public class Application {
-
-	static {
-	}
 
 	public static void main(String[] args) {
 		System.setProperty("hadoop.home.dir", "F:\\Spark\\Spark\\Utils\\");
@@ -29,9 +25,11 @@ public class Application {
 				.option("inferSchema", "true")
 				.load("src/main/resources/Sample.csv");
 		
-		Dataset<Row> df1 = df.select("Emp ID", "First Name", "Last Name", "Date of Birth")
+		Dataset<Row> df1 = df.select(col("Emp ID"), concat(col("First Name"), lit(" "), col("Last Name")).as("Full Name"), col("Date of Birth"))
+				.where(col("Full Name").startsWith("C"))
 				.withColumnRenamed("Date of Birth", "DOB")
-				.withColumn("DOB", to_date(col("DOB"),"M/d/y"));
+				.withColumn("DOB", to_date(col("DOB"),"M/d/y"))
+				.orderBy(col("Full Name").asc(), col("DOB").asc());
 
 		df1.printSchema();
 		df1.show();
