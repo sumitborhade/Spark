@@ -45,6 +45,7 @@ Every application has one master and 0 or more executors. </br>
 Work is distributed between the executors, who process and returns the results to master. </br>
 
 ![Diagram](readme-assets/Spark_Processing_Model.png)
+Reference: https://www.youtube.com/watch?v=F8pyaR4uQ2g
 
 ## Creating Spark Program
 Driver has Spark Session (DF/DS) or Spark Context (For RDD).
