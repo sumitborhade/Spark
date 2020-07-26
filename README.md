@@ -144,3 +144,6 @@ DAG has
 <b>DataSet:</b> Lang native APIs for Java & Scala. Not applicable in Python. Tied to a schema and associated with specific type
 
 <b>Spark SQL:</b> Recommanded by Spark, as it performs efficient operations. They are like SQL queries and hides the underlying complexities
+
+Diagram Reference: 
+![Structured APIs](Structured_APIs.png)
