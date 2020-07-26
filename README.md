@@ -2,31 +2,31 @@
 Reference: https://www.udemy.com/course/apache-spark-programming-in-scala/
 ## Spark Architecutre
 <ol>
-<li>Spark Core : Used for monitoring, scheduling and processing the task</li> 
-<li>Spark API (Polyglots) : Supports Java, Scala, Python and R</li> 
-<li>Spark SQL & Dataframes: Uses SQL queries. DF supports functional programming to solve data crunching problem</li> 
-<li>MLib: Used for Machine Learning</li> 
-<li>GraphX: Used for graphs</li> 
-<li>Streaming APIs: Streaming: Consume and Process a continuous stream of data</li> 
-<li>Cluster manager : Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local</li> 
-<li>Distributed storage : HDFS, Amazon S3, NoSQL, RDBMS</li> 
+<li><b>Spark Core:</b>. Used for monitoring, scheduling and processing the task</li> 
+<li><b>Spark API (Polyglots):</b> Supports Java, Scala, Python and R</li> 
+<li><b>Spark SQL & Dataframes:</b> Uses SQL queries. DF supports functional programming to solve data crunching problem</li> 
+<li><b>MLib:</b> Useful for Machine Learning</li> 
+<li><b>GraphX:</b> Handy for graphs</li> 
+<li><b>Streaming APIs:</b> Streaming: Consume and Process a continuous stream of data</li> 
+<li><b>Cluster manager:</b> Spark runs on Yarn, Mesos, Kubernetes, Standalone & Local</li> 
+<li><b>Distributed storage:</b> HDFS, Amazon S3, NoSQL, RDBMS</li> 
 </ol>
 
 Diagram Reference: https://databricks.com/spark/about
 ![Spark Ecosystem](readme-assets/Spark_EcoSystem.png)
 
 ## Advantages
-1. Abstraction : Abrastracts distributed architecture and makes feel like working on single machine and executing SQL queries so underlying complexities are hide.
-2. Unified processing: Can use polyglot, provides various liberaries to work for Machine Learning & GraphX
-3. Ease to use: Complexities are hiden by Spark
-4. Fast processing: In memory processing. 10x faster than Hadoop on disc and 100x faster on memory
-5. Powerful caching: It has caching management
+1. <b>Abstraction:</b> Abrastracts distributed architecture and makes feel like working on single machine and executing SQL queries so underlying complexities are hide.
+2. <b>Unified processing:</b> Can use polyglot, provides various liberaries to work for Machine Learning & GraphX
+3. <b>Ease to use:</b> Complexities are hiden by Spark
+4. <b>Fast processing:</b> In memory processing. 10x faster than Hadoop on disc and 100x faster on memory
+5. <b>Powerful caching:</b> It has caching management
 
 
 ## Spark Execution Methods
 <ol>
-<li>Interactive Clients: Using Spark Shell & Notebook. Used for exploration & development purpose</li>
-<li>Spark-Submit (Universely accepted method): Program is submitted using submit job. Used in Production</li>
+<li><b>Interactive Clients:</b> Using Spark Shell & Notebook. Used for exploration & development purpose</li>
+<li><b>Spark-Submit:</b> Universely accepted method. Program is submitted using submit job. Used in Production</li>
 </ol>
 
 ## Spark supports 
@@ -46,7 +46,7 @@ Every application has one master and 0 or more executors. </br>
 Work is distributed between the executors, who process and returns the results to master. </br>
 
 Diagram Reference: https://www.youtube.com/watch?v=F8pyaR4uQ2g
-![Diagram](readme-assets/Spark_Processing_Model.png)
+![Spark Processing Model](readme-assets/Spark_Processing_Model.png)
 
 
 ## Creating Spark Program
@@ -101,7 +101,7 @@ DF has
 <li>associated data types</li>
 </ol>
 
-Spark (with the help of Cluster manager) will assign the closest partitions assigned to DF to avoid the network latency.
+***Spark (with the help of Cluster manager) will assign the closest partitions assigned to DF to avoid the network latency.***
 
 ## Spark Transformation
 They like SQL like operations and form a DAG (Directed Acyclic Graph).
