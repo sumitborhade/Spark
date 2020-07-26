@@ -137,7 +137,7 @@ DAG has
 
 
 ## Structured APIs (RDD, DataFrames, DataSet, SQL)
-<b>RDD:</b> Low level API and present at core. Not recommanded by Spark community as it lags Catalyst optimizer. But used when schema is not assigned
+<b>RDD:</b> Low level API and present at core. Not recommanded by Spark community as it lags Catalyst optimizer. But used when schema is not assigned. They are fault tolerant (If executor fails while processing the partition, driver assigns those tasks to another executor)
 
 <b>DataFrames:</b> Associated with Generic type  (ROW)
 
