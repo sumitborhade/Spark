@@ -106,5 +106,12 @@ They like SQL like operations and form a DAG (Directed Acyclic Graph).
 DAG has 
 1. Transformations : 
 	<ul>
+	<li>It produces another DF.</li>
+	<li>select, groupby, where are examples</li>
 	<li>e.g. df.select("col1", "col2")</li>
+	<li>They are again divided in to </li>
+	<ol>
+	<li>Narrow Transformation : Performs an operation of single partition and produces a valid result</li>
+	<li>Wide Transformation: </li>
+	</ol>
 	</ul>
