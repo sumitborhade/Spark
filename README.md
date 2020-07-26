@@ -154,6 +154,7 @@ Diagram Reference: https://www.udemy.com/course/apache-spark-programming-in-scal
 
 
 ## Performance Tuning
+Reference: https://www.youtube.com/watch?v=I7RbpsRTcMQ
 <ol>
 <li>
 <b>Serializer:</b> 
@@ -163,7 +164,12 @@ Diagram Reference: https://www.udemy.com/course/apache-spark-programming-in-scal
 	<li>config.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer");</li>
 	</ol>
 </li>
-<li></li>
+<li><b>Use of structured APIs:</b> 
+	<ol>
+	<li>Use of structured APIs (SQL/Dataframes/Dataset) over RDD wherever possible.</li>
+	<li>Dataframe is best suited due catalyst optimizer and low GC overhead</li>
+	</ol>
+</li>
 <li></li>
 <li></li>
 <li></li>
